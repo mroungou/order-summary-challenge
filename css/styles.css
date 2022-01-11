@@ -1,0 +1,50 @@
+body {
+  background-color: hsl(225, 100%, 94%);
+  text-align: center;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.order {
+  border-radius: 15px;
+  background-color: white;
+  margin: 0 1.5rem;
+}
+
+.order > img {
+  max-width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+
+.order > p {
+  margin: 1rem;
+  text-align: center;
+}
+
+section.subscription {
+  background-color: hsl(225, 100%, 94%);
+  border-radius: 10px;
+  width: 75vw;
+  display: inline-flex;
+  align-items: center;
+  align-content: flex-end;
+}
+
+section.subscription .plan {
+  margin: auto auto auto 0.75rem;
+}
+
+section.subscription a {
+  margin: 0 0.5rem 0 auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+section.final-checkout .pay {
+  margin: 1.5rem auto;
+  width: 75%;
+  padding: 1.2rem;
+  border-radius: 15px;
+  font-weight: 700;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+}
