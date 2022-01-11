@@ -7,7 +7,14 @@ body {
 .order {
   border-radius: 15px;
   background-color: white;
-  margin: 0 1.5rem;
+  margin: 3rem 1.5rem 2rem;
+  box-shadow: -10px 10px 10px hsl(225, 100%, 94%);
+}
+
+.order p,
+section.final-checkout .cancel,
+.plan .price {
+  color: hsl(224, 23%, 55%);
 }
 
 .order > img {
@@ -18,15 +25,21 @@ body {
 .order > p {
   margin: 1rem;
   text-align: center;
+  padding: 1rem;
 }
 
 section.subscription {
-  background-color: hsl(225, 100%, 94%);
+  background-color: hsl(230deg 75% 98%);
   border-radius: 10px;
   width: 75vw;
   display: inline-flex;
   align-items: center;
   align-content: flex-end;
+}
+
+section.subscription img {
+  border-radius: 5%;
+  padding: 1rem;
 }
 
 section.subscription .plan {
@@ -47,4 +60,9 @@ section.final-checkout .pay {
   font-weight: 700;
   background-color: hsl(245, 75%, 52%);
   color: white;
+  box-shadow: -10px 10px 10px hsl(225, 100%, 94%);
+}
+
+section.final-checkout .cancel {
+  padding-bottom: 1.5rem;
 }
