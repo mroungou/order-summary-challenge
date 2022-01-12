@@ -81,6 +81,7 @@ body {
 
 .final-checkout button.pay:hover {
   cursor: pointer;
+  background-color: hsl(245, 75%, 62%);
 }
 .final-checkout .cancel {
   margin-top: 1.5rem;
@@ -90,6 +91,7 @@ body {
 #change:focus,
 #change:hover {
   text-decoration: none;
+  color: hsl(245, 75%, 62%);
 }
 
 #cancel:visited {
