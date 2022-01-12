@@ -2,6 +2,7 @@ body {
   background-color: hsl(225, 100%, 94%);
   text-align: center;
   font-family: "Red Hat Display", sans-serif;
+  height: 100vh;
 }
 
 .order {
@@ -78,9 +79,17 @@ body {
   box-shadow: -10px 10px 10px hsl(225, 100%, 94%);
 }
 
+.final-checkout button.pay:hover {
+  cursor: pointer;
+}
 .final-checkout .cancel {
   margin-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+
+#change:focus,
+#change:hover {
+  text-decoration: none;
 }
 
 #cancel:visited {
@@ -89,6 +98,7 @@ body {
 
 #cancel {
   text-decoration: none;
+  cursor: pointer;
 }
 
 #cancel:hover,
@@ -108,5 +118,9 @@ body {
   body {
     background-image: url(/images/pattern-background-desktop.svg);
     background-repeat: repeat-x;
+  }
+
+  .order {
+    width: 350px;
   }
 }
